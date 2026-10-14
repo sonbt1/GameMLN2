@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+server/snapshots/*.json
+
+# Build output
+dist/
+build/
+.out/
+.cache/
+.parcel-cache/
+.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python/local static server cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Claude/session scratch
+.claude/worktrees/
