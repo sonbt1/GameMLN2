@@ -22,6 +22,14 @@ Mở [http://localhost:3000](http://localhost:3000). Trang MC nằm ở `/admin.
 
 Không cần cài ứng dụng trên điện thoại. `playerToken` lưu trong localStorage để vào lại phòng và giữ nguyên tài sản sau khi mất kết nối.
 
+## Deploy lên Render
+
+Ứng dụng cần chạy Node.js server để phục vụ Socket.IO. Không deploy thư mục `client/` như một static site riêng, vì `/socket.io/socket.io.js` và kết nối realtime sẽ trả về 404.
+
+1. Đưa repository lên GitHub và tạo **Web Service** trên Render từ repository đó (hoặc dùng Blueprint để Render đọc `render.yaml`).
+2. Dùng cấu hình `Build Command: npm install` và `Start Command: npm start`; không đặt Root Directory thành `client`.
+3. Sau khi deploy, mở URL của service và kiểm tra trang quản trị tại `/admin.html`.
+
 ## MC điều khiển
 
 - **Tạo phòng mới** để sinh mã phòng và QR. Có thể mở lại phòng bằng mã khi server còn giữ trạng thái.
