@@ -1,1 +1,9 @@
-{"feeRate":0.01,"maxPlayers":50,"importDiscount":0.95,"creditLimit":2000,"creditDueDay":10,"productionCap":5000,"productionReturnRate":1.2}
+{
+  "feeRate": 0.01,
+  "maxPlayers": 50,
+  "creditLimit": 2000,
+  "creditDueDay": 9,
+  "productionCap": 5000,
+  "productionReturnRate": 1.2,
+  "marketExchangeRate": 0
+}

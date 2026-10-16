@@ -1,0 +1,66 @@
+[
+  {
+    "id": "rice",
+    "name": "Lúa",
+    "min": 100,
+    "max": 250,
+    "volatility": 0.15,
+    "initial": 175
+  },
+  {
+    "id": "corn",
+    "name": "Ngô",
+    "min": 120,
+    "max": 300,
+    "volatility": 0.12,
+    "initial": 210
+  },
+  {
+    "id": "cotton",
+    "name": "Bông",
+    "min": 200,
+    "max": 500,
+    "volatility": 0.2,
+    "initial": 350
+  },
+  {
+    "id": "iron",
+    "name": "Sắt",
+    "min": 300,
+    "max": 650,
+    "volatility": 0.1,
+    "initial": 475
+  },
+  {
+    "id": "oil",
+    "name": "Dầu",
+    "min": 400,
+    "max": 850,
+    "volatility": 0.15,
+    "initial": 625
+  },
+  {
+    "id": "steel",
+    "name": "Thép",
+    "min": 500,
+    "max": 1000,
+    "volatility": 0.12,
+    "initial": 750
+  },
+  {
+    "id": "chip",
+    "name": "Chip",
+    "min": 700,
+    "max": 1400,
+    "volatility": 0.2,
+    "initial": 1050
+  },
+  {
+    "id": "gold",
+    "name": "Vàng",
+    "min": 1000,
+    "max": 2000,
+    "volatility": 0.1,
+    "initial": 1500
+  }
+]
